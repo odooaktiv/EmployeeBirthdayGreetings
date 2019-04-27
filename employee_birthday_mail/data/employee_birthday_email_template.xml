@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<odoo>
+
+    <record id="email_template_employee_birthday_notification" model="mail.template">
+        <field name="name">Employee Birthday Notification</field>
+        <field name="email_from">${object.email}</field>
+        <field name="email_to">${object.work_email}</field>
+        <field name="subject">Happy Birthday ${object.name}.</field>
+        <field name="model_id" ref="model_hr_employee"/>
+         <field name="body_html"><![CDATA[
+            <p> Dear ${object.name},</p>
+            ${ctx.get('report_header')| safe}
+            ${ctx.get('body_action')| safe}
+            ${ctx.get('report_footer')| safe}
+            ]]></field>
+    </record>
+
+</odoo>
