@@ -2,13 +2,13 @@ Odoo 11.0 Community
 
 Installation 
 ============
-* Install the Application => Apps -> Employee Birthday Mail (Technical Name: employee_birthday_mail)
+* Install the Application => Apps -> Employee Birthday Greetings (Technical Name: employee_birthday_greetings)
 
 
 
-Employee Birthday Mail
+Employee Birthday Greetings
 ==================================
-* This module will help to sent an automated Birthday Mail to the Birthday employee if it's Birth Date is set in the Contact Form.
+* This module will help to sent an automated Birthday Greetings to the Birthday employee if it's Birth Date is set in the Contact Form.
 * This module also helps the user to customize the email format.
 
 Steps

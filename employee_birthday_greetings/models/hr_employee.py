@@ -12,7 +12,7 @@ class HrEmployee(models.Model):
     def birthday_mail_method(self):
         ctx = self._context.copy()
         template_id = self.env.ref(
-            "employee_birthday_mail.email_template_employee_birthday_notification")
+            "employee_birthday_greetings.email_template_employee_birthday_notification")
         for employee in self.search([]):
             if employee.birthday:
                 current_date = date.today()
