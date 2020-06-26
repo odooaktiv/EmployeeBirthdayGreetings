@@ -3,7 +3,7 @@
 
 {
     'name': 'Employee Birthday Greetings',
-    'category': 'HR',
+    'category': 'Generic Modules/Human Resources',
     'version': '11.0.1.0.0',
     'website': 'http://www.aktivsoftware.com',
     'author': 'Aktiv Software',
